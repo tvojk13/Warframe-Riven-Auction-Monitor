@@ -26,31 +26,3 @@ def get_names():
     return weapon_names
 
 
-
-# while(True):
-#
-#     session = requests.Session()
-#     responce = session.get(main_url).text
-#     data = json.loads(responce)
-#
-#     for auction in data["payload"]["auctions"]:
-#
-#         if auction["owner"]["status"] == "offline" or auction["owner"]["status"] == "online":
-#             continue
-#         else:
-#             if auction["buyout_price"] <= 300:
-#                 price = auction["buyout_price"]
-#                 print("====================")
-#                 print(price)
-#                 contact_with_seller = "/w " + auction["owner"]["ingame_name"] + " hi, i want buy riven for "
-#                 print("/w " + auction["owner"]["ingame_name"] + " hi, i want buy riven for ")
-#                 #print(auction["owner"]["status"])
-#                 notification.notify(message=str(price), app_name='script', title='Rubico riven')
-#                 break
-#             else:
-#                 continue
-#
-#     session.close()
-#     random_sec = random.randint(0, 3)
-#     time.sleep(3 + random_sec)
-
