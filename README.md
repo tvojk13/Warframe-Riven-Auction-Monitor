@@ -1,6 +1,6 @@
 # Warframe Riven Auction Monitor
 
-This is a Python application that monitors Warframe Riven auctions on warframe.market and notifies users when a desired auction is available at or below a specified price.
+Warframe Riven Auction Monitor is a Python application that helps Warframe players monitor and track the Riven Mod auction market. It provides tools to keep track of ongoing auctions, historical data, and make informed decisions for Riven Mod trades. By utilizing the warframe.market API, the application retrieves real-time auction information, displays metrics, and sends notifications for important events. The Warframe Riven Auction Monitor aims to enhance trading experience, save time, and improve decision-making in the Riven Mod market.
 
 ### Prerequisites
 
